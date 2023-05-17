@@ -26,7 +26,7 @@ button.addEventListener("click" , function(){
 
     if (userNumber < computerNumber){
         userContainer.innerHTML += '<div> il tuo risultato è: ' +  userNumber + '</div>';
-        computerContainer.innerHTML += '<div> il risultato del computer è: ' + userNumber + '<div>';
+        computerContainer.innerHTML += '<div> il risultato del computer è: ' + computerNumber + '<div>';
 
         output.append("ha vinto il computer. Ritenta e sarai più fortunato")
         console.log("ha vinto il computer. Ritenta e sarai più fortunato")
@@ -34,14 +34,14 @@ button.addEventListener("click" , function(){
 
     else if (userNumber > computerNumber){
         userContainer.innerHTML += '<div> il tuo risultato è: ' +  userNumber + '</div>';
-        computerContainer.innerHTML += '<div> il risultato del computer è: ' + userNumber + '<div>';
+        computerContainer.innerHTML += '<div> il risultato del computer è: ' + computerNumber + '<div>';
         output.append("hai vinto sei un grande!")
         console.log("hai vinto sei un grande!")
     }
 
     else if (userNumber == computerNumber){
         userContainer.innerHTML += '<div> il tuo risultato è: ' +  userNumber + '</div>';
-        computerContainer.innerHTML += '<div> il risultato del computer è: ' + userNumber + '<div>';
+        computerContainer.innerHTML += '<div> il risultato del computer è: ' + computerNumber + '<div>';
         output.append("avete pareggiato ma il computer non avrà la meglio!")
         console.log("avete pareggiato ma il computer non avrà la meglio!")
     }
